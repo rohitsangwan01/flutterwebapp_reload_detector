@@ -22,6 +22,6 @@ WebAppReloadDetector.onReload(() {
 
 ## Why We Need this ?
 
-if User refresh Browser , Flutter Web Keeps the path save or your project might crash because of reload in middle of App
-to prevent this , we can set `WebAppReloadDetector.onReload` to do some actions for example , take user back to home page
-Also , this will not include the case of HotReload or refresh , it will only trigger if user Refresh the Browser Page
+if User refreshes WebApp , Flutter Web Keeps the route path saved or your project might crash because of this reload in middle of WebApp,
+to prevent this we can set `WebAppReloadDetector.onReload` to do some actions, for example , take user back to home page.
+Also , this will not include the case of HotReload or HotRefresh , it will only trigger if user Refresh the Browser Page
