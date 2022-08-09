@@ -12,7 +12,7 @@ flutterwebapp_reload_detector: 0.0.1
 
 ## Usage
 
-Call `WebAppReloadDetector.onReload` on Top Level Widget only Once , check `\example` app
+Call `WebAppReloadDetector.onReload` on Top Level Widget only Once , check [\example`](https://github.com/rohitsangwan01/flutterwebapp_reload_detector/blob/main/example/lib/main.dart#L27) app
 
 ```dart
 WebAppReloadDetector.onReload(() {
